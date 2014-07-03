@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/download" >
+
+   <TextView 
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_fn"
+        android:text="@string/fname"
+       />
+    
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_fn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_fn"
+        android:layout_toRightOf="@+id/tv_fn"
+        android:padding="10dp" />
+    
+    <TextView 
+        android:layout_below="@+id/tv_fn"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_ln"
+        android:text="@string/lname"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    
+    <EditText
+        android:id="@+id/et_ln"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_pw"
+        android:layout_below="@+id/et_fn"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/tv_ln"
+        android:padding="10dp" />
+    
+    <TextView 
+        android:layout_below="@+id/tv_ln"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tv_pw"
+        android:text="@string/password"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    
+    <TextView
+        android:id="@+id/tv_phn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_pw"
+        android:layout_marginTop="22dp"
+        android:text="@string/phn" />
+    
+   <EditText
+       android:id="@+id/et_pw"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/tv_phn"
+       android:layout_alignParentRight="true"
+       android:layout_alignTop="@+id/tv_pw"
+       android:ems="10"
+       android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/tv_phn"
+        android:layout_below="@+id/tv_phn"
+        android:layout_marginTop="17dp"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/et_phn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_email"
+        android:layout_alignLeft="@+id/et_email"
+        android:layout_alignTop="@+id/tv_phn"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_email"
+        android:layout_alignTop="@+id/tv_email"
+        android:layout_toRightOf="@+id/tv_ln"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/add" />
+
+    <EditText
+        android:id="@+id/et_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/et_email"
+        android:layout_alignTop="@+id/textView2"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/back_button"
+        android:layout_below="@+id/back_button"
+        android:layout_marginTop="17dp"
+        android:text="@string/edit" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/back" />
+
+</RelativeLayout>

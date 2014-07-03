@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Where_m_i</string>
+    <string name="welcome">Welcome User!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="register">Not Registered Yet!</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="welcome_signup">Please fill your details</string>
+    <string name="fn">Enter First Name</string>
+    <string name="ln">Enter Last Name</string>
+    <string name="un">Enter UserName</string>
+    <string name="pw">Enter Password</string>
+    <string name="email">Enter Email</string>
+    <string name="phone">Enter Phone Number</string>
+    <string name="address">Enter Address</string>
+    <string name="submit">Submit</string>
+    <string name="my_loc">My Location</string>
+    <string name="profile">My Profile</string>
+    <string name="friend">My Friend</string>
+    <string name="signout">Signout</string>
+      <string name="fname">First Name</string>
+      <string name="lname">Last Name</string>
+      <string name="add">Address</string>
+      <string name="edit">Edit</string>
+      <string name="back">Back</string>
+      <string name="phn">Phone</string>
+
+</resources>

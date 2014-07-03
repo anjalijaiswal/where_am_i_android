@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyLocationActivity"
+    android:background="@drawable/download"
+    >
+
+    <TextView
+       
+        android:id="@+id/my_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="My Location"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/get_gps_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get GPS Location" />
+
+    <Button
+        android:id="@+id/get_network_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Network Location" />
+
+    <Button
+        android:id="@+id/get_last_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Last Location" />
+    
+    <Button
+        android:id="@+id/locate_on_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Locate on map" />
+
+</LinearLayout>

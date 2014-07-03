@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    
+     android:background="@drawable/download">
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/buttonlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_loc" 
+ 
+       />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/buttonprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile" 
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+          android:layout_margin="20dp"
+        android:id="@+id/buttonfriend"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/friend" 
+        android:layout_marginTop="20dp"
+         />
+
+    <Button
+          android:layout_margin="20dp"
+        android:id="@+id/buttonsignout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signout"  
+        android:layout_marginTop="20dp"
+       />
+
+</LinearLayout>

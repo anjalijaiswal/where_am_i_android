@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+   tools:context="org.example.wim.MainActivity$PlaceholderFragment" >
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/login"
+        
+         />
+
+    <Button
+        android:id="@+id/buttonsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"                
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"                                                    
+        android:text="@string/signup" 
+         />
+
+    <TextView
+        android:id="@+id/textViewwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewregister"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+  
+    
+    <TextView android:id="@+id/login_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buttonlogin"
+                    android:layout_marginLeft="65dp"
+                    android:textColor="#e30000"
+                    android:padding="4dp"
+                    android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editTextpassword"
+        android:layout_below="@+id/textViewwelcome"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:maxLength="12"
+        android:singleLine="true" 
+        android:maxLines="1"
+        android:hint="@string/username" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextusername"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:maxLength="12"
+        android:singleLine="true" 
+        android:maxLines="1"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textViewregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonsignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/register"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+</RelativeLayout>

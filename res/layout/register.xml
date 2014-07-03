@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/download">
+
+    <TextView
+        android:id="@+id/textViewsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_signup"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        
+        />
+
+    <EditText
+        android:id="@+id/editTextFN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/fn"
+        android:maxLength="12"
+       android:singleLine="true" 
+         android:maxLines="1"
+         style="@android:style/Widget.EditText"
+        android:background="@android:drawable/edit_text" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextLN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" 
+        android:hint="@string/ln"
+         android:maxLength="12"
+       android:singleLine="true" 
+         android:maxLines="1"
+        style="@android:style/Widget.EditText"
+          android:background="@android:drawable/edit_text"> <requestFocus /></EditText>  
+         
+
+    <EditText
+        android:id="@+id/editTextUN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="@string/un"
+         android:maxLength="12"
+        android:singleLine="true" 
+         android:maxLines="1"
+         style="@android:style/Widget.EditText"
+           android:background="@android:drawable/edit_text"> <requestFocus />
+         </EditText> 
+
+    <EditText
+        android:id="@+id/editTextPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/pw"
+         android:maxLength="12"
+        android:singleLine="true" 
+         android:maxLines="1"
+		 style="@android:style/Widget.EditText"
+		   android:background="@android:drawable/edit_text"><requestFocus /></EditText> 
+		 
+
+    <EditText
+        android:id="@+id/editTextemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" 
+        android:hint="@string/email"
+        android:maxLength="30"
+       android:singleLine="true" 
+         android:maxLines="1"
+      style="@android:style/Widget.EditText"
+        android:background="@android:drawable/edit_text"><requestFocus /> </EditText> 
+
+    <EditText
+        android:id="@+id/editTextphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/phone"
+        android:maxLength="15"
+       android:singleLine="true" 
+         android:maxLines="1"
+        style="@android:style/Widget.EditText"
+           android:background="@android:drawable/edit_text"><requestFocus /></EditText> 
+
+    <EditText
+        android:id="@+id/editTextaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:hint="@string/address" 
+        style="@android:style/Widget.EditText"
+        android:maxLength="30"
+        android:singleLine="true" 
+         android:maxLines="1"
+         android:background="@android:drawable/edit_text"
+        ><requestFocus /> </EditText> 
+
+    <Button
+        android:id="@+id/buttonsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" 
+        android:padding="15dip"
+        android:layout_marginLeft="100dip"
+        android:onClick="register"/>
+
+</LinearLayout>
